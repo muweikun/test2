@@ -1,0 +1,9 @@
+{
+    "func_id" : "0xa2",
+    "data_list": [
+        {
+            "data": "ready_shoot",
+            "type": "uint8"
+        }
+    ]
+}

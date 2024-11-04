@@ -1,0 +1,35 @@
+{
+    "func_id" : "0x44",
+    "data_list": [
+        {
+            "data": "seq",
+            "type": "uint16",
+            "description" : "序列id"
+        },
+        {
+            "data": "stamp",
+            "type": "uint32",
+            "description" : "时间戳"
+        },
+        {
+            "data": "chassis_voltage",
+            "type": "float32"
+        },
+        {
+            "data": "chassis_current",
+            "type": "float32"
+        },
+        {
+            "data": "chassis_power",
+            "type": "float32"
+        },
+        {
+            "data": "supercap_voltage",
+            "type": "float32"
+        },
+        {
+            "data": "supercap_percent",
+            "type": "float32"
+        }
+    ]
+}

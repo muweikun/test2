@@ -1,0 +1,50 @@
+{
+    "func_id" : "0x01",
+    "data_list": [
+        {
+            "data": "seq",
+            "type": "uint16",
+            "description" : "序列id"
+        },
+        {
+            "data": "stamp",
+            "type": "uint32",
+            "description" : "时间戳"
+        },
+        {
+            "data": "accel",
+            "type": "int16[3]",
+            "description" : "加速度计输出"
+        },
+        {
+            "data": "gyro",
+            "type": "int16[3]",
+            "description" : "陀螺仪输出"
+        },
+        {
+            "data": "w",
+            "type": "float32_scale_to_int16",
+            "scale": 32760.0,
+            "description" : "姿态解算输出"
+        },
+        {
+            "data": "x",
+            "type": "float32_scale_to_int16",
+            "scale": 32760.0,
+            "description" : "姿态解算输出"
+        },
+        {
+            "data": "y",
+            "type": "float32_scale_to_int16",
+            "scale": 32760.0,
+            "description" : "姿态解算输出"
+        },
+        {
+            "data": "z",
+            "type": "float32_scale_to_int16",
+            "scale": 32760.0,
+            "description" : "姿态解算输出"
+        }
+    ],
+    "ros_msg_generate" : false
+}

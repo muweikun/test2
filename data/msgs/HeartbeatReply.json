@@ -1,0 +1,15 @@
+{
+    "func_id" : "0x52",
+    "data_list": [
+        {
+            "data": "from_device",
+            "type": "uint8",
+            "description" : "设备id，0-mcu, 1-minipc, 2-station"
+        },
+        {
+            "data": "to_device",
+            "type": "uint8",
+            "description" : "设备id，0-mcu, 1-minipc, 2-station"
+        }
+    ]
+}

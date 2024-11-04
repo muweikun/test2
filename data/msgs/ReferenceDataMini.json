@@ -1,0 +1,42 @@
+{
+    "func_id" : "0x40",
+    "data_list": [
+        {
+            "data": "game_state",
+            "type": "uint8"
+        },
+        {
+            "data": "remaining_time",
+            "type": "uint16"
+        },
+        {
+            "data": "self_color",
+            "type": "uint8"
+        },
+        {
+            "data": "self_health",
+            "type": "uint16"
+        },
+        {
+            "data": "bullet_speed_meas",
+            "type": "float32_scale_to_uint16",
+            "scale": 655.2
+        },
+        {
+            "data": "shoot_heat",
+            "type": "uint16"
+        },
+        {
+            "data": "hurt_by_gimbal",
+            "type": "uint8"
+        },
+        {
+            "data": "remaining_bullet",
+            "type": "uint16"
+        },
+        {
+            "data": "who_is_balance",
+            "type": "uint8"
+        }
+    ]
+}

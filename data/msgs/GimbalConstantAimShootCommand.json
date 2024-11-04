@@ -1,0 +1,25 @@
+{
+    "func_id" : "0x04",
+    "data_list": [
+        {
+            "data": "x",
+            "type": "float32"
+        },
+        {
+            "data": "y",
+            "type": "float32"
+        },
+        {
+            "data": "z",
+            "type": "float32"
+        },
+        {
+            "data": "freq",
+            "type": "uint8"
+        },
+        {
+            "data": "frame",
+            "type": "uint8"
+        }
+    ]
+}

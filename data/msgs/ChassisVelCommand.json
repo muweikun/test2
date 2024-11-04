@@ -1,0 +1,25 @@
+{
+    "func_id" : "0x05",
+    "data_list": [
+        {
+            "data": "x",
+            "type": "float32",
+            "description" : "底盘x方向移动速度"
+        },
+        {
+            "data": "y",
+            "type": "float32",
+            "description" : "底盘y方向移动速度"
+        },
+        {
+            "data": "z",
+            "type": "float32",
+            "description" : "底盘z方向移动速度"
+        },
+        {
+            "data": "frame",
+            "type": "uint8",
+            "description" : "底盘移动坐标系，应设为0，当前仅支持IMU世界系NWU"
+        }
+    ]
+}

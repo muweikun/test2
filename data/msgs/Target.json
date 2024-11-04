@@ -1,0 +1,62 @@
+{
+    "func_id" : "0xbb",
+    "data_list": [
+        {
+            "data": "seq",
+            "type": "uint16",
+            "description" : "序列id"
+        },
+        {
+            "data": "tracking",
+            "type": "uint8"
+        },
+        {
+            "data": "armors_num",
+            "type": "uint8"
+        },
+        {
+            "data": "pos_x",
+            "type": "float32"
+        },
+        {
+            "data": "pos_y",
+            "type": "float32"
+        },
+        {
+            "data": "pos_z",
+            "type": "float32"
+        },
+        {
+            "data": "vel_x",
+            "type": "float32"
+        },
+        {
+            "data": "vel_y",
+            "type": "float32"
+        },
+        {
+            "data": "vel_z",
+            "type": "float32"
+        },
+        {
+            "data": "yaw",
+            "type": "float32"
+        },
+        {
+            "data": "v_yaw",
+            "type": "float32"
+        },
+        {
+            "data": "radius_1",
+            "type": "float32"
+        },
+        {
+            "data": "radius_2",
+            "type": "float32"
+        },
+        {
+            "data": "dz",
+            "type": "float32"
+        }
+    ]
+}

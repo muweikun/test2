@@ -1,0 +1,23 @@
+{
+    "func_id" : "0xb9",
+    "data_list": [
+        {
+            "data": "seq",
+            "type": "uint16",
+            "description" : "序列id"
+        },
+        {
+            "data": "stamp",
+            "type": "uint32",
+            "description" : "时间戳"
+        },
+        {
+            "data": "rpm1",
+            "type": "float32"
+        },
+        {
+            "data": "rpm2",
+            "type": "float32"
+        }
+    ]
+}

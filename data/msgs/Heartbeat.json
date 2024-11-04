@@ -1,0 +1,31 @@
+{
+    "func_id" : "0x51",
+    "data_list": [
+        {
+            "data": "seq",
+            "type": "uint16",
+            "description" : "序列id"
+        },
+        {
+            "data": "stamp",
+            "type": "uint32",
+            "description" : "时间戳"
+        },
+        {
+            "data": "from_device",
+            "type": "uint8",
+            "description" : "设备id，0-mcu, 1-minipc, 2-station"
+        },
+        {
+            "data": "to_device",
+            "type": "uint8",
+            "description" : "设备id，0-mcu, 1-minipc, 2-station"
+        },
+        {
+            "data": "usage",
+            "type": "float32_scale_to_uint16",
+            "scale": 65535.0,
+            "description" : "MCU占用率"
+        }
+    ]
+}

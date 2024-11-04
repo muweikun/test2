@@ -1,0 +1,17 @@
+{
+    "func_id" : "0x50",
+    "data_list": [
+        {
+            "data": "current_target",
+            "type": "uint8"
+        },
+        {
+            "data": "detect_num",
+            "type": "uint8"
+        },
+        {
+            "data": "aim_mode",
+            "type": "uint8"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "func_id" : "0xa0",
+    "data_list": [
+        {
+            "data": "seq",
+            "type": "uint16",
+            "description" : "序列id"
+        },
+        {
+            "data": "stamp",
+            "type": "uint32",
+            "description" : "时间戳"
+        },
+        {
+            "data": "pitch_exp",
+            "type": "float32"
+        },
+        {
+            "data": "pitch_imu",
+            "type": "float32"
+        },
+        {
+            "data": "yaw_exp",
+            "type": "float32"
+        },
+        {
+            "data": "yaw_imu",
+            "type": "float32"
+        },
+        {
+            "data": "x",
+            "type": "float32"
+        },
+        {
+            "data": "y",
+            "type": "float32"
+        },
+        {
+            "data": "z",
+            "type": "float32"
+        }
+    ]
+}
