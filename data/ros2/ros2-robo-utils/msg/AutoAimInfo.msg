@@ -1,9 +1,0 @@
-Header header
-uint8 self_color
-uint8 hero_score
-uint8 infantry3_score
-uint8 infantry4_score
-uint8 sentry_score
-uint8 base_score
-uint8 who_is_balance
-uint16 exposure

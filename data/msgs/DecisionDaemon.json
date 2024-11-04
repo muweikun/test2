@@ -1,9 +1,0 @@
-{
-    "func_id" : "0x61",
-    "data_list": [
-        {
-            "data": "behaviour",
-            "type": "uint8"
-        }
-    ]
-}

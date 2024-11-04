@@ -1,6 +1,0 @@
-Header header
-float32 x
-float32 y
-float32 z
-float32 yaw_rate
-uint8 frame
